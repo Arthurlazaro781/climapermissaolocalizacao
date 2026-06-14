@@ -27,7 +27,14 @@
         android:id="@+id/btnSearch"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Buscar Clima"
+        android:text="Buscar por Texto"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Usar Minha Localização"
         android:layout_marginBottom="24dp" />
 
     <TextView
